@@ -1,0 +1,110 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bbf7a0;
+
+}
+
+header {
+    background-color: #d0760f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+
+#city {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchButton {
+
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#display {
+    background-color: rgb(53, 205, 219);
+    border-radius: 3px;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.maincontainer {
+
+    border: 2px solid #10004e;
+    border-radius: 3px;
+    width: auto;
+    height: 300px;
+    padding: 3px;
+    margin-bottom: 34px;
+    background-color: #88ebeb;
+}
+
+.template h1 {
+
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 3rem;
+    color: #10004e;
+
+}
+
+.tempbox {
+    font-size: 25px;
+    list-style: none;
+    text-align: end;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* Style for the footer */
+.footer {
+    background-color: #d0760f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style for the copyright text */
+.footer p {
+    font-size: 14px;
+}
+
+/* Optionally, you can style links in the footer */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Center the copyright text */
+.container {
+    display: flex;
+    justify-content: center;
+}
